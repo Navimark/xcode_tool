@@ -3,26 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>disb</string>
+	<string>cbtn</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                   &lt;#statement#&gt;
-    });</string>
+	<string>{
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        [btn setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
+        btn.titleLabel.font = &lt;#font#&gt;;
+        [btn setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
+        [btn addTarget:&lt;#(nullable id)#&gt; action:&lt;#(nonnull SEL)#&gt; forControlEvents:UIControlEventTouchUpInside];
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>19B2B93F-C894-43C2-A7E5-58191E12331F</string>
+	<string>3C653E70-EC75-4974-9312-D3524BBC0C37</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>dispatch in background</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dispatch in background</string>
+	<string>button create</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

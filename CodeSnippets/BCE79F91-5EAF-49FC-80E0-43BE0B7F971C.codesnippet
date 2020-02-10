@@ -3,31 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cbtn</string>
+	<string>debugtest</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>{
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [btn setTitle:&lt;#(nullable NSString *)#&gt; forState:UIControlStateNormal];
-        btn.titleLabel.font = &lt;#font#&gt;;
-        [btn setTitleColor:&lt;#(nullable UIColor *)#&gt; forState:UIControlStateNormal];
-        [btn addTarget:&lt;#(nullable id)#&gt; action:&lt;#(nonnull SEL)#&gt; forControlEvents:UIControlEventTouchUpInside];
-    }</string>
+	<string>#ifdef DEBUG
+    &lt;#coding here#&gt;
+#else
+    #error "删除测试代码"
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>3C653E70-EC75-4974-9312-D3524BBC0C37</string>
+	<string>BCE79F91-5EAF-49FC-80E0-43BE0B7F971C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>button create</string>
+	<string>debug test</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

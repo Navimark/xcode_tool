@@ -3,28 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debugtest</string>
+	<string>pblock</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#ifdef DEBUG
-    &lt;#coding here#&gt;
-#else
-    #error "删除测试代码"
-#endif</string>
+	<string>@property(nonatomic, copy, nullable) void (^&lt;#block name#&gt;)(&lt;#params#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BCE79F91-5EAF-49FC-80E0-43BE0B7F971C</string>
+	<string>B8C8C82C-1F6B-453F-BED3-57FEEF11D83C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debug test</string>
+	<string>property block declare</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

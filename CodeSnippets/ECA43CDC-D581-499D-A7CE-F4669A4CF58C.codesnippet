@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pblock</string>
+	<string>borderapply</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, copy, nullable) void (^&lt;#block name#&gt;)(&lt;#params#&gt;);</string>
+	<string>#if DEBUG
+    &lt;#layer#&gt;.borderColor = [UIColor redColor].CGColor;
+    &lt;#layer#&gt;.borderWidth = 1;
+#else
+#error "删除测试代码"
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B8C8C82C-1F6B-453F-BED3-57FEEF11D83C</string>
+	<string>ECA43CDC-D581-499D-A7CE-F4669A4CF58C</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property block declare</string>
+	<string>apply border</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
